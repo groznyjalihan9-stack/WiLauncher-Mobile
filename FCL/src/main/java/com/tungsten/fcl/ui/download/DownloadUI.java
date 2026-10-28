@@ -14,6 +14,7 @@ import com.tungsten.fcl.ui.download.common.DownloadPage;
 import com.tungsten.fcl.ui.download.common.RemoteModInfoPage;
 import com.tungsten.fcl.ui.download.favorite.FavoritePage;
 import com.tungsten.fcl.ui.download.version.VersionInstallPage;
+import com.tungsten.fclcore.mod.curse.CurseForgeRemoteModRepository;
 import com.wilauncher.mobile.CatalogPage;
 import com.tungsten.fclcore.task.Task;
 import com.tungsten.fcllibrary.component.ui.FCLCommonUI;
@@ -69,6 +70,10 @@ public class DownloadUI extends FCLCommonUI {
         ViewGroup tabIndicator = (ViewGroup) tabLayout.getChildAt(0);
         for (int i = 0; i < tabIndicator.getChildCount(); i++) {
             tabIndicator.getChildAt(i).setFocusable(false);
+        }
+        // Worlds come only from CurseForge, which needs an API key WiLauncher builds don't carry
+        if (!CurseForgeRemoteModRepository.isAvailable()) {
+            tabIndicator.getChildAt(pageIdToTabPosition(PAGE_ID_DOWNLOAD_WORLD)).setVisibility(View.GONE);
         }
         // 临时页（详情页等）打开会引发 ViewPager2 页面重测量/布局抖动，TabLayout 宽度瞬态变化
         // 会把内部滚动位置 clamp 到错误值，选中页签滚出视野；宽度变化落定后重新滚到选中页签自愈

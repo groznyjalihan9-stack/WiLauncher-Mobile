@@ -246,7 +246,11 @@ public class DownloadPage extends FCLPage implements View.OnClickListener {
         // 恢复期间临时移除监听，避免 downloadSource 变化触发 refreshCategory 的重复搜索
         downloadSource.removeListener(sourceListener);
         boolean localized = pageId != PAGE_ID_DOWNLOAD_WORLD;
-        if (localized) {
+        if (localized && !CurseForgeRemoteModRepository.isAvailable()) {
+            // WiLauncher builds carry no CurseForge API key: Modrinth only
+            downloadSources.get().setAll(getContext().getString(R.string.mods_modrinth));
+            downloadSource.set(getContext().getString(R.string.mods_modrinth));
+        } else if (localized) {
             downloadSources.get().setAll(getContext().getString(R.string.mods_aggregate), getContext().getString(R.string.mods_curseforge), getContext().getString(R.string.mods_modrinth));
             downloadSource.set(getContext().getString(R.string.mods_aggregate));
         } else {
