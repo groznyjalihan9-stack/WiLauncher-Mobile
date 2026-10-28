@@ -46,4 +46,6 @@ signed with the Android debug key, so anyone can build the sources (such APKs ca
 1. Bump `versionCode` / `versionName` in `FCL/build.gradle.kts`, add a `CHANGELOG.md` section.
 2. Build the three ABIs.
 3. Publish them in WiLauncher-releases as `WiLauncher-Android-<version>-<abi>.apk` under the tag `android-v<version>`
-   and update `android/version_map.json` there (the in-app updater replaces `-all` in its `url` with the device ABI).
+   **with `gh release create … --latest=false`**: the desktop updater reads `releases/latest/download/latest.json`, so an
+   Android release must never become the repository's "latest" release.
+4. Update `android/version_map.json` there (the in-app updater replaces `-all` in its `url` with the device ABI).
