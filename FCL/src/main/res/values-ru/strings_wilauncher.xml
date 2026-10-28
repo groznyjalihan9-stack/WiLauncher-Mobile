@@ -29,4 +29,8 @@
     <string name="wl_import_mod_no_loader">В %s нет загрузчика модов. Сначала выберите игру с Fabric, Forge, NeoForge или Quilt.</string>
     <string name="wl_import_mod_failed">Не удалось добавить %s.</string>
 
+    <string name="wl_bedrock_installed">Установлен, версия %s</string>
+    <string name="wl_bedrock_not_installed">Не установлен</string>
+    <string name="wl_bedrock_get">Открыть Google Play</string>
+    <string name="wl_bedrock_no_store">На этом устройстве нет Google Play.</string>
 </resources>

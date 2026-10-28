@@ -64,6 +64,8 @@ import com.tungsten.fcl.setting.Profile
 import com.tungsten.fcl.setting.Profiles
 import com.tungsten.fcl.ui.UIManager
 import com.tungsten.fcl.ui.download.modpack.LocalModpackPage
+import com.wilauncher.mobile.Bedrock
+import com.wilauncher.mobile.EditionSwitch
 import com.wilauncher.mobile.ModFileImport
 import com.tungsten.fcl.ui.main.MainUI
 import com.tungsten.fcl.ui.version.VersionListViewModel
@@ -117,6 +119,7 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
     }
 
     lateinit var binding: ActivityMainBinding
+    private lateinit var editions: EditionSwitch
     private var _uiManager: UIManager? = null
     lateinit var uiManager: UIManager
     private lateinit var currentAccount: ObjectProperty<Account?>
@@ -152,6 +155,7 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
         modpackHandled = savedInstanceState?.getBoolean("modpack_handled") ?: false
         instance = WeakReference(this)
         binding = ActivityMainBinding.inflate(layoutInflater)
+        editions = EditionSwitch(this, binding) { loadVersion(Profiles.getSelectedVersion()) }
         sharedPreferences = getSharedPreferences("launcher", MODE_PRIVATE)
         setContentView(binding.root)
         // 协议版本更新后，进程被回收再由系统直接恢复主界面时不会经过启动页：回到启动页重新确认
@@ -218,13 +222,17 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
                 versionCard.setOnClickListener(this@MainActivity)
                 // 长按版本卡片：就地弹出版本快速切换列表（点击条目切换版本，条目右侧按钮切换并启动）
                 versionCard.setOnLongClickListener {
+                    if (editions.isBedrock) return@setOnLongClickListener true
                     VersionSwitchPopup(this@MainActivity)
                         .show(binding.versionCard, binding.rightMenu) { id -> launchVersion(id) }
                     true
                 }
                 goSetting.setOnClickListener(this@MainActivity)
                 start.setOnClickListener(this@MainActivity)
+                editions.setup()
+                if (editions.isBedrock) editions.refresh()
                 start.setOnLongClickListener { view ->
+                    if (editions.isBedrock) return@setOnLongClickListener true
                     RendererSelectDialog(this@MainActivity, false) {
                         onClick(view)
                     }.show()
@@ -500,6 +508,8 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
     override fun onResume() {
         super.onResume()
         _uiManager?.onResume()
+        // Bedrock may have been installed or updated meanwhile
+        if (::editions.isInitialized && editions.isBedrock) editions.refresh()
         if (shouldPlayVideo() && !binding.videoView.isPlaying) {
             binding.videoView.seekTo(videoPosition)
             binding.videoView.start()
@@ -719,6 +729,14 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
                 // 标题动画由 pageSelectedListener 的账户页分支统一触发，此处不再重复调用
                 uiManager.switchUI(uiManager.accountUI)
             }
+            if (view === versionCard && editions.isBedrock) {
+                Bedrock.openStore(this@MainActivity)
+                return@apply
+            }
+            if (view === start && editions.isBedrock) {
+                Bedrock.launch(this@MainActivity)
+                return@apply
+            }
             if (view === versionCard && uiManager.currentUI !== uiManager.versionUI) {
                 refreshMenuView(null)
                 // 标题动画由 pageSelectedListener 的版本页分支统一触发，此处不再重复调用
@@ -937,6 +955,10 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
     }
 
     private fun loadVersion(version: String?) {
+        if (::editions.isInitialized && editions.isBedrock) {
+            editions.refresh()
+            return
+        }
         isVersionLoading = true
         binding.versionProgress.visibility = View.VISIBLE
         profile = Profiles.getSelectedProfile()
@@ -980,6 +1002,8 @@ class MainActivity : FCLActivity(), OnSelectListener, View.OnClickListener {
                 val drawable = profile.repository.getVersionIconImage(version)
                 withContext(Dispatchers.Main) {
                     isVersionLoading = false
+                    // the player switched to Bedrock while this was loading
+                    if (editions.isBedrock) return@withContext
                     binding.versionProgress.visibility = View.GONE
                     binding.versionName.text = version
                     binding.versionName.isSelected = true

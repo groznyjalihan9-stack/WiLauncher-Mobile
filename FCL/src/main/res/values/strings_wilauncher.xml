@@ -30,4 +30,11 @@
     <string name="wl_import_mod_no_loader">%s has no mod loader. Select a game with Fabric, Forge, NeoForge or Quilt first.</string>
     <string name="wl_import_mod_failed">Couldn\'t add %s.</string>
 
+    <string name="wl_edition_java" translatable="false">Java</string>
+    <string name="wl_edition_bedrock" translatable="false">Bedrock</string>
+    <string name="wl_bedrock_title" translatable="false">Minecraft Bedrock</string>
+    <string name="wl_bedrock_installed">Installed, version %s</string>
+    <string name="wl_bedrock_not_installed">Not installed</string>
+    <string name="wl_bedrock_get">Open Google Play</string>
+    <string name="wl_bedrock_no_store">Google Play is not available on this device.</string>
 </resources>

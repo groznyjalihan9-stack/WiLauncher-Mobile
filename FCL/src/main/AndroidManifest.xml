@@ -199,6 +199,8 @@
     </application>
     <queries>
         <package android:name="net.kdt.pojavlaunch.ffmpeg" />
+        <!-- Minecraft: Bedrock Edition, started from the edition switch -->
+        <package android:name="com.mojang.minecraftpe" />
 
         <intent>
             <action android:name="android.intent.action.MAIN" />

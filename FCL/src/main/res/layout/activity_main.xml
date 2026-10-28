@@ -142,7 +142,7 @@
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:focusable="true"
-                app:layout_constraintBottom_toTopOf="@id/version_card"
+                app:layout_constraintBottom_toTopOf="@id/edition_switch"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/download_wave_progress">
@@ -187,6 +187,43 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- WiLauncher: Java / Bedrock edition switch above the version card -->
+            <LinearLayout
+                android:id="@+id/edition_switch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@id/version_card"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.tungsten.fcllibrary.component.view.FCLTextView
+                    android:id="@+id/edition_java"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingVertical="6dp"
+                    android:singleLine="true"
+                    android:text="@string/wl_edition_java"
+                    android:textSize="13sp" />
+
+                <com.tungsten.fcllibrary.component.view.FCLTextView
+                    android:id="@+id/edition_bedrock"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingVertical="6dp"
+                    android:singleLine="true"
+                    android:text="@string/wl_edition_bedrock"
+                    android:textSize="13sp" />
+            </LinearLayout>
 
             <!-- 版本卡片：图标 + 版本名 + 组件摘要，点击进入版本选择，齿轮进入版本设置 -->
             <androidx.constraintlayout.widget.ConstraintLayout
