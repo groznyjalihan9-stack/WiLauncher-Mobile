@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single-colour block for themed icons and the notification bar. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <group android:translateY="-4">
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M512,218 L772,368 L772,666 L512,816 L252,666 L252,368 Z M512,330 L434,374 L512,418 L590,374 Z" />
+    </group>
+</vector>

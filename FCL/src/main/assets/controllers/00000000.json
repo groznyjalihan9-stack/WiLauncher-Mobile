@@ -1,0 +1,1115 @@
+{
+ "id": "00000000",
+ "name": "WiLauncher",
+ "version": "1.0.0",
+ "versionCode": 1,
+ "author": "WiLauncher",
+ "description": "Touch layout of WiLauncher: stick on the left, jump / attack / use under the right thumb.",
+ "controllerVersion": 21,
+ "buttonStyles": [
+  {
+   "name": "WiLauncher",
+   "textColor": -1,
+   "textSize": 22,
+   "strokeColor": -863281930,
+   "strokeWidth": 6,
+   "cornerRadius": 100,
+   "fillColor": 1426063360,
+   "textColorPressed": -1,
+   "textSizePressed": 22,
+   "strokeColorPressed": -5796870,
+   "strokeWidthPressed": 8,
+   "cornerRadiusPressed": 100,
+   "fillColorPressed": -1433707274
+  },
+  {
+   "name": "WiLauncher Small",
+   "textColor": -1,
+   "textSize": 17,
+   "strokeColor": -863281930,
+   "strokeWidth": 6,
+   "cornerRadius": 40,
+   "fillColor": 1426063360,
+   "textColorPressed": -1,
+   "textSizePressed": 17,
+   "strokeColorPressed": -5796870,
+   "strokeWidthPressed": 8,
+   "cornerRadiusPressed": 40,
+   "fillColorPressed": -1433707274
+  }
+ ],
+ "directionStyles": [
+  {
+   "name": "WiLauncher",
+   "styleType": "ROCKER",
+   "buttonStyle": {
+    "interval": 50,
+    "textColor": -1,
+    "textSize": 14,
+    "strokeColor": -863281930,
+    "strokeWidth": 6,
+    "cornerRadius": 100,
+    "fillColor": 1426063360,
+    "textColorPressed": -1,
+    "textSizePressed": 14,
+    "strokeColorPressed": -5796870,
+    "strokeWidthPressed": 8,
+    "cornerRadiusPressed": 100,
+    "fillColorPressed": -1433707274
+   },
+   "rockerStyle": {
+    "rockerSize": 420,
+    "bgCornerRadius": 500,
+    "bgStrokeWidth": 8,
+    "bgStrokeColor": -1718919946,
+    "bgFillColor": 855638016,
+    "rockerCornerRadius": 500,
+    "rockerStrokeWidth": 6,
+    "rockerStrokeColor": -5796870,
+    "rockerFillColor": -1433707274
+   }
+  }
+ ],
+ "viewGroups": [
+  {
+   "id": "33943c76-3dda-68e1-211d-f4f5e664fcdc",
+   "name": "WiLauncher",
+   "visibility": "VISIBLE",
+   "viewData": {
+    "buttonList": [
+     {
+      "id": "cf548ebc-9833-2e36-b1b2-88eafcf19e37",
+      "text": "❚❚",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "MENU",
+       "xPosition": 0,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         1
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "0e70a1ae-c940-910c-e994-b35e0221a1ec",
+      "text": "💬",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 380,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         20
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "80680d31-2c5b-f635-d5d3-b0b3439accce",
+      "text": "❚❚",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 500,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         1
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "8018527b-9ca1-8cf8-419e-331e7f614ac0",
+      "text": "👁",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 620,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         63
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "da7c247e-6987-5a64-7e00-7f37cf95cb74",
+      "text": "⌨",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "MENU",
+       "xPosition": 120,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": true,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "ec175c56-5d9e-8273-d4e5-8d9a6ae58dc9",
+      "text": "⏎",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "MENU",
+       "xPosition": 880,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         28
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "ca53bc43-074a-db67-ab0d-0a8f8d469293",
+      "text": "⌫",
+      "style": "WiLauncher Small",
+      "baseInfo": {
+       "visibilityType": "MENU",
+       "xPosition": 1000,
+       "yPosition": 0,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         14
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "e02cf801-0cfd-ee3d-9855-0391e17888bd",
+      "text": "▲",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 985,
+       "yPosition": 870,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 170
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 170
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         57
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "0daf7164-437b-46ac-e25d-5b01e727a617",
+      "text": "⚔",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 870,
+       "yPosition": 640,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 140
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 140
+       }
+      },
+      "event": {
+       "pointerFollow": true,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         1000
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "dfda3914-7834-6348-1fbd-5bfba8ed14fe",
+      "text": "✋",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 985,
+       "yPosition": 560,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 140
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 140
+       }
+      },
+      "event": {
+       "pointerFollow": true,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         1002
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "42b015e1-9d1c-886c-00cc-ea17c9b2acaf",
+      "text": "▼",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 860,
+       "yPosition": 960,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 120
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 120
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": true,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         42
+        ],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "469a6912-a7ca-9116-cf60-0fc5079f324c",
+      "text": "🎒",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 740,
+       "yPosition": 975,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 115
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 115
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         18
+        ],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "a27dddb3-71cd-f4de-ff7b-fa89bb6eae10",
+      "text": "⇣",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 985,
+       "yPosition": 330,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 105
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         16
+        ],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     },
+     {
+      "id": "6f51c1c0-e7fc-ee96-ad19-e9bb3eca676e",
+      "text": "»",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 40,
+       "yPosition": 400,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 115
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 115
+       }
+      },
+      "event": {
+       "pointerFollow": false,
+       "Movable": false,
+       "pressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "longPressEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       },
+       "clickEvent": {
+        "autoKeep": true,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [
+         29
+        ],
+        "bindViewGroup": []
+       },
+       "doubleClickEvent": {
+        "autoKeep": false,
+        "autoClick": false,
+        "openMenu": false,
+        "switchTouchMode": false,
+        "input": false,
+        "quickInput": false,
+        "outputText": "",
+        "outputKeycodes": [],
+        "bindViewGroup": []
+       }
+      }
+     }
+    ],
+    "directionList": [
+     {
+      "id": "ca5fb6a8-5aa5-e10e-b85e-2f95166b8b4e",
+      "style": "WiLauncher",
+      "baseInfo": {
+       "visibilityType": "IN_GAME",
+       "xPosition": 40,
+       "yPosition": 930,
+       "sizeType": "PERCENTAGE",
+       "absoluteWidth": 50,
+       "absoluteHeight": 50,
+       "percentageWidth": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 440
+       },
+       "percentageHeight": {
+        "reference": "SCREEN_HEIGHT",
+        "size": 440
+       }
+      },
+      "event": {
+       "upKeycode": [
+        17
+       ],
+       "downKeycode": [
+        31
+       ],
+       "leftKeycode": [
+        30
+       ],
+       "rightKeycode": [
+        32
+       ],
+       "followOption": "CENTER_FOLLOW",
+       "sneak": false,
+       "sneakKeycode": 42
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

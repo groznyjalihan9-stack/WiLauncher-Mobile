@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings added by WiLauncher (kept apart from the upstream FCL strings to ease merges). -->
+<resources>
+    <string name="wl_builtin_downloading">Installing built-in mod: %s</string>
+    <string name="wl_builtin_locked">Built-in WiLauncher mod: it can\'t be removed or turned off.</string>
+    <string name="wl_builtin_tag">Built-in</string>
+
+    <string name="wl_catalog_tab">Catalog</string>
+    <string name="wl_catalog_title">WiLauncher catalog</string>
+    <string name="wl_catalog_search">Search the catalog</string>
+    <string name="wl_catalog_all">Everything</string>
+    <string name="wl_catalog_all_mods">All mods (Modrinth)</string>
+    <string name="wl_catalog_no_game">Install a game on the Games tab first.</string>
+    <string name="wl_catalog_target">For: %1$s (Minecraft %2$s, %3$s)</string>
+    <string name="wl_catalog_target_vanilla">For: %1$s. It has no mod loader, so only resource packs fit. For mods, install a version with Fabric on the Games tab.</string>
+    <string name="wl_catalog_builtin_note">Already built in: %s. WiLauncher adds them to every modded game on its own.</string>
+    <string name="wl_catalog_empty">Nothing found.</string>
+    <string name="wl_catalog_install">Install</string>
+    <string name="wl_catalog_installing">Installing…</string>
+    <string name="wl_catalog_installed">Installed</string>
+    <string name="wl_catalog_unavailable">Not for this version</string>
+    <string name="wl_catalog_needs_loader">Needs a mod loader</string>
+    <string name="wl_catalog_wrong_loader">Other loader</string>
+    <string name="wl_catalog_heavy">Heavy for phones</string>
+    <string name="wl_catalog_installed_toast">%s is installed. It will be loaded the next time you start the game.</string>
+    <string name="wl_catalog_not_for_version">%1$s has no build for Minecraft %2$s yet.</string>
+    <string name="wl_catalog_install_failed">Couldn\'t install %s. Check your connection and try again.</string>
+
+    <string name="wl_import_mod_done">%1$s is added to %2$s.</string>
+    <string name="wl_import_mod_no_loader">%s has no mod loader. Select a game with Fabric, Forge, NeoForge or Quilt first.</string>
+    <string name="wl_import_mod_failed">Couldn\'t add %s.</string>
+
+</resources>

@@ -1,0 +1,41 @@
+WiLauncher User Agreement
+
+Version: 1
+Last updated: October 28, 2026
+
+Welcome to WiLauncher for Android ("WiLauncher"), a free and open-source launcher for Minecraft: Java Edition. Please read this agreement and the Privacy Policy before using WiLauncher. By tapping "Agree and Continue", you confirm that you have read and agree to both. If you do not agree, do not use WiLauncher.
+
+1. Software license
+
+1) WiLauncher is free software released under the GNU General Public License version 3 (GPL-3.0). This agreement does not limit any rights you have under GPL-3.0; if they conflict, GPL-3.0 prevails. Source code:
+https://github.com/groznyjalihan9-stack/WiLauncher-Mobile
+2) WiLauncher is a modified version of Fold Craft Launcher by FCL-Team (https://github.com/FCL-Team/FoldCraftLauncher), which in turn builds on HMCLCore, PojavLauncher and Boat. It is not an official FCL build and FCL-Team is not responsible for it.
+3) WiLauncher is free of charge. Third-party components keep their own licenses (see the notices in the source repository).
+
+2. Relationship with Minecraft
+
+1) WiLauncher is an unofficial launcher. It is not affiliated with or endorsed by Mojang Studios or Microsoft.
+2) Minecraft is a trademark of Mojang Synergies AB. WiLauncher does not provide or sell Minecraft licenses and does not include Minecraft files: the game is downloaded from Mojang's servers on your device.
+3) When playing Minecraft you must follow the Minecraft End User License Agreement and obtain the game through legitimate channels.
+
+3. Built-in mods and the catalog
+
+1) In games with a mod loader (Fabric, Quilt, Forge, NeoForge) WiLauncher installs a small set of optimisation mods from Modrinth on its own and keeps them enabled. They belong to their authors and are used under their licenses.
+2) Mods and resource packs from the WiLauncher catalog and from Modrinth are made by third parties. WiLauncher only selects and downloads them; it does not review their contents. You use them at your own risk.
+
+4. Acceptable use
+
+When using WiLauncher, you agree to follow the laws of your country, the rules of the servers and services you use, and the licenses of the content you download, and not to use WiLauncher to infringe the rights of others or to attack services.
+
+5. Disclaimer and limitation of liability
+
+1) WiLauncher is provided "as is", without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose and non-infringement. It is not guaranteed to work on every device.
+2) To the maximum extent permitted by law, the authors of WiLauncher are not liable for any damages arising from its use or inability to use it, such as data loss, device problems or account bans. Back up important worlds regularly.
+
+6. Changes
+
+The agreement may be updated as WiLauncher changes. After an update, WiLauncher shows the new version at startup and asks for your consent again. You may stop using and uninstall WiLauncher at any time.
+
+7. Contact
+
+https://github.com/groznyjalihan9-stack/WiLauncher-Mobile/issues

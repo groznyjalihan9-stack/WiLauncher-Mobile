@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wl_builtin_downloading">Устанавливаю встроенный мод: %s</string>
+    <string name="wl_builtin_locked">Встроенный мод WiLauncher: его нельзя удалить или отключить.</string>
+    <string name="wl_builtin_tag">Встроенный</string>
+
+    <string name="wl_catalog_tab">Каталог</string>
+    <string name="wl_catalog_title">Каталог WiLauncher</string>
+    <string name="wl_catalog_search">Поиск по каталогу</string>
+    <string name="wl_catalog_all">Всё</string>
+    <string name="wl_catalog_all_mods">Все моды (Modrinth)</string>
+    <string name="wl_catalog_no_game">Сначала установите игру на вкладке «Игры».</string>
+    <string name="wl_catalog_target">Для: %1$s (Minecraft %2$s, %3$s)</string>
+    <string name="wl_catalog_target_vanilla">Для: %1$s. В этой версии нет загрузчика модов, поэтому подойдут только ресурспаки. Для модов установите версию с Fabric на вкладке «Игры».</string>
+    <string name="wl_catalog_builtin_note">Уже встроены: %s. WiLauncher сам добавляет их в каждую игру с модами.</string>
+    <string name="wl_catalog_empty">Ничего не нашлось.</string>
+    <string name="wl_catalog_install">Установить</string>
+    <string name="wl_catalog_installing">Установка…</string>
+    <string name="wl_catalog_installed">Установлено</string>
+    <string name="wl_catalog_unavailable">Нет для этой версии</string>
+    <string name="wl_catalog_needs_loader">Нужен загрузчик модов</string>
+    <string name="wl_catalog_wrong_loader">Другой загрузчик</string>
+    <string name="wl_catalog_heavy">Тяжело для телефона</string>
+    <string name="wl_catalog_installed_toast">%s установлен. Он загрузится при следующем запуске игры.</string>
+    <string name="wl_catalog_not_for_version">У %1$s пока нет версии для Minecraft %2$s.</string>
+    <string name="wl_catalog_install_failed">Не удалось установить %s. Проверьте интернет и попробуйте ещё раз.</string>
+
+    <string name="wl_import_mod_done">%1$s добавлен в %2$s.</string>
+    <string name="wl_import_mod_no_loader">В %s нет загрузчика модов. Сначала выберите игру с Fabric, Forge, NeoForge или Quilt.</string>
+    <string name="wl_import_mod_failed">Не удалось добавить %s.</string>
+
+</resources>

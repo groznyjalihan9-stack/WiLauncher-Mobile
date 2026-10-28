@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WiLauncher block (same shape as the desktop logo), centred in the 108dp adaptive-icon canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <group android:translateY="-4">
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineJoin="round"
+            android:strokeWidth="28"
+            android:pathData="M512,232 L758,374 L512,516 L266,374 Z" />
+        <path
+            android:fillColor="#E9E1FF"
+            android:strokeColor="#E9E1FF"
+            android:strokeLineJoin="round"
+            android:strokeWidth="28"
+            android:pathData="M266,374 L512,516 L512,800 L266,658 Z" />
+        <path
+            android:fillColor="#C9B6FB"
+            android:strokeColor="#C9B6FB"
+            android:strokeLineJoin="round"
+            android:strokeWidth="28"
+            android:pathData="M758,374 L512,516 L512,800 L758,658 Z" />
+        <path
+            android:fillColor="#B79CFA"
+            android:strokeColor="#B79CFA"
+            android:strokeLineJoin="round"
+            android:strokeWidth="22"
+            android:pathData="M512,318 L610,374 L512,430 L414,374 Z" />
+        <path
+            android:fillColor="#8B5CF6"
+            android:pathData="M512,330 L590,374 L512,418 L434,374 Z" />
+    </group>
+</vector>

@@ -1,0 +1,19 @@
+[
+  {
+    "type": "release",
+    "versionCode": 1,
+    "versionName": "0.1.0",
+    "date": "2026.10.28",
+    "description": [
+      {
+        "lang": "en",
+        "text": "First release of WiLauncher for Android: built-in optimisation mods, Fabric preselected for new games, the WiLauncher mod catalog, opening .jar mods with WiLauncher, a phone touch layout and mobile game settings."
+      },
+      {
+        "lang": "ru",
+        "text": "Первый выпуск WiLauncher для Android: встроенные моды оптимизации, Fabric по умолчанию для новых игр, каталог модов WiLauncher, установка модов из .jar-файла, раскладка кнопок под телефон и настройки игры для мобильных."
+      }
+    ],
+    "url": "https://github.com/groznyjalihan9-stack/WiLauncher-releases/releases/download/android-v0.1.0/WiLauncher-Android-0.1.0-all.apk"
+  }
+]

@@ -1,0 +1,666 @@
+{
+ "version": 20261028,
+ "categories": [
+  {
+   "id": "performance",
+   "title": {
+    "ru": "Оптимизация",
+    "en": "Performance"
+   }
+  },
+  {
+   "id": "interface",
+   "title": {
+    "ru": "Интерфейс",
+    "en": "Interface"
+   }
+  },
+  {
+   "id": "maps",
+   "title": {
+    "ru": "Карты",
+    "en": "Maps"
+   }
+  },
+  {
+   "id": "graphics",
+   "title": {
+    "ru": "Графика",
+    "en": "Graphics"
+   }
+  },
+  {
+   "id": "gameplay",
+   "title": {
+    "ru": "Геймплей",
+    "en": "Gameplay"
+   }
+  },
+  {
+   "id": "resourcepacks",
+   "title": {
+    "ru": "Ресурспаки",
+    "en": "Resource packs"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "LQ3K71Q1",
+   "slug": "dynamic-fps",
+   "name": "Dynamic FPS",
+   "icon": "https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Снижает FPS в меню и когда игра свёрнута — телефон меньше греется и дольше держит заряд.",
+    "en": "Lowers FPS in menus and in the background, so the phone runs cooler and the battery lasts longer."
+   }
+  },
+  {
+   "id": "fQEb0iXm",
+   "slug": "krypton",
+   "name": "Krypton",
+   "icon": "https://cdn.modrinth.com/data/fQEb0iXm/3ea60899d060a9286e03b87bfa9e71d0cbe2dde7_96.webp",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric"
+   ],
+   "summary": {
+    "ru": "Оптимизирует сетевой код: меньше лагов на серверах и в локальной сети.",
+    "en": "Optimises the network stack: less lag on servers and LAN games."
+   }
+  },
+  {
+   "id": "Wnxd13zP",
+   "slug": "clumps",
+   "name": "Clumps",
+   "icon": "https://cdn.modrinth.com/data/Wnxd13zP/6a965bb7974c3e759a53a1c89c35de4acd4cf86a_96.webp",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Объединяет шарики опыта в один — меньше подтормаживаний у ферм и при добыче.",
+    "en": "Merges experience orbs, so farms and mining cause fewer stutters."
+   }
+  },
+  {
+   "id": "g96Z4WVZ",
+   "slug": "badoptimizations",
+   "name": "BadOptimizations",
+   "icon": "",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Мелкие оптимизации рендера освещения, неба и частиц.",
+    "en": "Small rendering optimisations for lighting, sky and particles."
+   }
+  },
+  {
+   "id": "51shyZVL",
+   "slug": "moreculling",
+   "name": "More Culling",
+   "icon": "https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Не рисует то, что скрыто за блоками: листву, рамки, стекло.",
+    "en": "Skips drawing what's hidden behind blocks: leaves, item frames, glass."
+   }
+  },
+  {
+   "id": "GNxdLCoP",
+   "slug": "cull-leaves",
+   "name": "Cull Leaves",
+   "icon": "https://cdn.modrinth.com/data/GNxdLCoP/icon.png",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Ускоряет леса: невидимые грани листвы не рисуются.",
+    "en": "Faster forests: hidden faces of leaves are not drawn."
+   }
+  },
+  {
+   "id": "M08ruV16",
+   "slug": "bobby",
+   "name": "Bobby",
+   "icon": "https://cdn.modrinth.com/data/M08ruV16/icon.png",
+   "type": "mod",
+   "category": "performance",
+   "loaders": [
+    "fabric"
+   ],
+   "summary": {
+    "ru": "Запоминает загруженные чанки и показывает их дальше, чем позволяет сервер.",
+    "en": "Keeps loaded chunks and shows them beyond the server's view distance."
+   }
+  },
+  {
+   "id": "U7KwGAnT",
+   "slug": "touchcontroller",
+   "name": "TouchController",
+   "icon": "https://cdn.modrinth.com/data/U7KwGAnT/9334040759243614f81e1f1d7619f3fe2a206aee_96.webp",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Сенсорное управление как в Bedrock Edition прямо в игре. С ним кнопки WiLauncher можно скрыть в игровом меню.",
+    "en": "Bedrock-style touch controls inside the game. With it you can hide the WiLauncher buttons from the in-game menu."
+   }
+  },
+  {
+   "id": "mOgUt4GM",
+   "slug": "modmenu",
+   "name": "Mod Menu",
+   "icon": "https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Кнопка «Моды» в главном меню: список модов и их настройки.",
+    "en": "Adds a Mods button to the main menu with every mod and its settings."
+   }
+  },
+  {
+   "id": "nvQzSEkH",
+   "slug": "jade",
+   "name": "Jade 🔍",
+   "icon": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Показывает, на какой блок или существо вы смотрите.",
+    "en": "Shows what block or creature you're looking at."
+   }
+  },
+  {
+   "id": "EsAfCjCV",
+   "slug": "appleskin",
+   "name": "AppleSkin",
+   "icon": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Показывает сытость и насыщение еды прямо на полосе голода.",
+    "en": "Shows food values and saturation right on the hunger bar."
+   }
+  },
+  {
+   "id": "fRiHVvU7",
+   "slug": "emi",
+   "name": "EMI",
+   "icon": "https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Список всех предметов и рецептов с поиском — удобно, когда не помнишь крафт.",
+    "en": "Searchable list of all items and recipes, for when you forget a recipe."
+   }
+  },
+  {
+   "id": "2M01OLQq",
+   "slug": "shulkerboxtooltip",
+   "name": "Shulker Box Tooltip",
+   "icon": "https://cdn.modrinth.com/data/2M01OLQq/bb490716cf2590cf84100a495931c3d4743bce43_96.webp",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Показывает содержимое шалкеров в подсказке.",
+    "en": "Shows what's inside shulker boxes in the tooltip."
+   }
+  },
+  {
+   "id": "smUP7V3r",
+   "slug": "durability-tooltip",
+   "name": "Durability Tooltip",
+   "icon": "https://cdn.modrinth.com/data/smUP7V3r/icon.png",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Прочность инструментов и брони числом в подсказке.",
+    "en": "Tool and armour durability as a number in the tooltip."
+   }
+  },
+  {
+   "id": "tEcWzCZz",
+   "slug": "held-item-info",
+   "name": "Held Item Info",
+   "icon": "https://cdn.modrinth.com/data/tEcWzCZz/39f285a000b8685703bfc5e6939f3f2fb49634f5.png",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Показывает чары и содержимое предмета в руке.",
+    "en": "Shows enchantments and contents of the item in your hand."
+   }
+  },
+  {
+   "id": "MS1ZMyR7",
+   "slug": "better-ping-display-fabric",
+   "name": "Better Ping Display [Fabric]",
+   "icon": "https://cdn.modrinth.com/data/MS1ZMyR7/icon.png",
+   "type": "mod",
+   "category": "interface",
+   "loaders": [
+    "fabric"
+   ],
+   "summary": {
+    "ru": "Пинг игроков числом в списке игроков на сервере.",
+    "en": "Shows player ping as a number in the server player list."
+   }
+  },
+  {
+   "id": "1bokaNcj",
+   "slug": "xaeros-minimap",
+   "name": "Xaero's Minimap",
+   "icon": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+   "type": "mod",
+   "category": "maps",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Миникарта в углу экрана с точками маршрута.",
+    "en": "Minimap in the corner of the screen with waypoints."
+   }
+  },
+  {
+   "id": "NcUtCpym",
+   "slug": "xaeros-world-map",
+   "name": "Xaero's World Map",
+   "icon": "https://cdn.modrinth.com/data/NcUtCpym/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+   "type": "mod",
+   "category": "maps",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Полная карта исследованного мира.",
+    "en": "Full map of the world you have explored."
+   }
+  },
+  {
+   "id": "1IjD5062",
+   "slug": "continuity",
+   "name": "Continuity",
+   "icon": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Соединённые текстуры стекла и других блоков.",
+    "en": "Connected textures for glass and other blocks."
+   }
+  },
+  {
+   "id": "yBW8D80W",
+   "slug": "lambdynamiclights",
+   "name": "LambDynamicLights - Dynamic Lights",
+   "icon": "https://cdn.modrinth.com/data/yBW8D80W/d4f5c3ff8df7caf024178b04eca6d69f95979cfe_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Факел в руке освещает всё вокруг.",
+    "en": "A torch in your hand lights up the area around you."
+   }
+  },
+  {
+   "id": "zV5r3pPn",
+   "slug": "3dskinlayers",
+   "name": "3D Skin Layers",
+   "icon": "https://cdn.modrinth.com/data/zV5r3pPn/ff7010d4ec0275609866c8b0f603b25e25949c08_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Объёмный второй слой скина.",
+    "en": "3D outer layer of player skins."
+   }
+  },
+  {
+   "id": "WhbRG4iK",
+   "slug": "fallingleaves",
+   "name": "Falling Leaves",
+   "icon": "https://cdn.modrinth.com/data/WhbRG4iK/58f5b66cb54787d9c25228d667f61144371c3867_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric"
+   ],
+   "summary": {
+    "ru": "С деревьев падают листья.",
+    "en": "Leaves fall from trees."
+   }
+  },
+  {
+   "id": "gsJ6q45e",
+   "slug": "nicer-skies",
+   "name": "Nicer Skies",
+   "icon": "https://cdn.modrinth.com/data/gsJ6q45e/c5f78a6483473fd1640ae67b91eba694ae50090d_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Красивое небо и звёзды.",
+    "en": "Nicer sky and stars."
+   }
+  },
+  {
+   "id": "rI0hvYcd",
+   "slug": "visuality",
+   "name": "Visuality",
+   "icon": "https://cdn.modrinth.com/data/rI0hvYcd/5c866549318e907bbfe0d525afe43cb17a36a481.png",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Новые частицы: искры, капли, блеск руды.",
+    "en": "New particles: sparks, drips, shiny ores."
+   },
+   "heavy": true
+  },
+  {
+   "id": "BVzZfTc1",
+   "slug": "entitytexturefeatures",
+   "name": "[ETF] Entity Texture Features",
+   "icon": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt"
+   ],
+   "summary": {
+    "ru": "Случайные и светящиеся текстуры мобов из ресурспаков.",
+    "en": "Random and emissive mob textures from resource packs."
+   }
+  },
+  {
+   "id": "YL57xq9U",
+   "slug": "iris",
+   "name": "Iris Shaders",
+   "icon": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+   "type": "mod",
+   "category": "graphics",
+   "loaders": [
+    "fabric",
+    "quilt",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Шейдеры. На телефоне очень тяжело — только для мощных устройств и рендерера MobileGlues.",
+    "en": "Shaders. Very heavy on phones: only for powerful devices with the MobileGlues renderer."
+   },
+   "heavy": true
+  },
+  {
+   "id": "LOpKHB2A",
+   "slug": "waystones",
+   "name": "Waystones",
+   "icon": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Камни телепортации между любимыми местами.",
+    "en": "Waystones to teleport between your favourite places."
+   }
+  },
+  {
+   "id": "MPCX6s5C",
+   "slug": "not-enough-animations",
+   "name": "Not Enough Animations",
+   "icon": "https://cdn.modrinth.com/data/MPCX6s5C/b97fd5f7a893165052408b747286d6eb38d57abb_96.webp",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Анимации от третьего лица: еда, карта, лестницы.",
+    "en": "Third-person animations for eating, maps and ladders."
+   }
+  },
+  {
+   "id": "XeEZ3fK2",
+   "slug": "freecam",
+   "name": "Freecam",
+   "icon": "https://cdn.modrinth.com/data/XeEZ3fK2/9529a900a2aa6ed56c1b3167f165bac91b3acd6e_96.webp",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "fabric",
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Свободная камера: осмотреться, не двигаясь с места.",
+    "en": "Free camera to look around without moving."
+   }
+  },
+  {
+   "id": "w7ThoJFB",
+   "slug": "zoomify",
+   "name": "Zoomify (Zoom)",
+   "icon": "https://cdn.modrinth.com/data/w7ThoJFB/e2de67a0bfb9e8aa2347982ab3ec5463f26cca31_96.webp",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "fabric",
+    "quilt",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Приближение как у подзорной трубы.",
+    "en": "Zoom in like a spyglass."
+   }
+  },
+  {
+   "id": "9eGKb6K1",
+   "slug": "simple-voice-chat",
+   "name": "Simple Voice Chat",
+   "icon": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "bukkit",
+    "bungeecord",
+    "fabric",
+    "folia",
+    "forge",
+    "neoforge",
+    "paper",
+    "purpur",
+    "quilt",
+    "spigot",
+    "velocity",
+    "waterfall"
+   ],
+   "summary": {
+    "ru": "Голосовой чат в игре. Нужен на сервере и разрешение на микрофон.",
+    "en": "In-game voice chat. The server needs it too, and microphone access is required."
+   }
+  },
+  {
+   "id": "R2OftAxM",
+   "slug": "farmers-delight",
+   "name": "Farmer's Delight",
+   "icon": "https://cdn.modrinth.com/data/R2OftAxM/8e7aa38ab94d94bb0a2894a218b69beb49002b34.png",
+   "type": "mod",
+   "category": "gameplay",
+   "loaders": [
+    "forge",
+    "neoforge"
+   ],
+   "summary": {
+    "ru": "Готовка, новые культуры и блюда.",
+    "en": "Cooking, new crops and meals."
+   }
+  },
+  {
+   "id": "w0TnApzs",
+   "slug": "faithful-32x",
+   "name": "Faithful 32x",
+   "icon": "https://cdn.modrinth.com/data/w0TnApzs/e8403d1fb2f55321ae74402c1e8c90a3a5670856.png",
+   "type": "resourcepack",
+   "category": "resourcepacks",
+   "loaders": [
+    "minecraft"
+   ],
+   "summary": {
+    "ru": "Знакомые текстуры в двойном разрешении 32×32.",
+    "en": "The familiar textures at double resolution (32×32)."
+   }
+  },
+  {
+   "id": "rox3U8B6",
+   "slug": "bare-bones",
+   "name": "Bare Bones",
+   "icon": "https://cdn.modrinth.com/data/rox3U8B6/b502bd8b2a6048f635230da8e8a66eeb4383874b_96.webp",
+   "type": "resourcepack",
+   "category": "resourcepacks",
+   "loaders": [
+    "minecraft"
+   ],
+   "summary": {
+    "ru": "Простые чистые текстуры в стиле трейлеров Minecraft.",
+    "en": "Simple, clean textures in the style of the Minecraft trailers."
+   }
+  },
+  {
+   "id": "6SLU7tS5",
+   "slug": "default-dark-mode",
+   "name": "Default Dark Mode",
+   "icon": "https://cdn.modrinth.com/data/6SLU7tS5/f90001e4ebed860e7ae913f34c85d745f516a89b.png",
+   "type": "resourcepack",
+   "category": "resourcepacks",
+   "loaders": [
+    "minecraft"
+   ],
+   "summary": {
+    "ru": "Тёмная тема интерфейса игры.",
+    "en": "Dark theme for the game interface."
+   }
+  },
+  {
+   "id": "50dA9Sha",
+   "slug": "fresh-animations",
+   "name": "Fresh Animations",
+   "icon": "https://cdn.modrinth.com/data/50dA9Sha/3132c10e9e3c73fde9799720fd3da5561071708c_96.webp",
+   "type": "resourcepack",
+   "category": "resourcepacks",
+   "loaders": [
+    "minecraft"
+   ],
+   "summary": {
+    "ru": "Живые анимации мобов. Сам поставит нужные моды ETF и EMF.",
+    "en": "Lively mob animations. Installs the required ETF and EMF mods for you."
+   },
+   "requires": [
+    "BVzZfTc1",
+    "4I1XuqiY"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+WiLauncher Privacy Policy
+
+Version: 1
+Last updated: October 28, 2026
+
+WiLauncher has no accounts of its own, collects no analytics and shows no ads. It contains no third-party analytics, advertising or push SDKs. This policy lists what stays on your device and which services your device talks to when you use online features.
+
+1. Stored on your device only
+
+1) Accounts: names and UUIDs of offline accounts; names, UUIDs, skins and sign-in tokens of Ely.by and other authentication-server accounts. WiLauncher never stores your password.
+2) Game data: game versions, mods, resource packs, worlds, screenshots and control layouts, in the WiLauncher folder on shared storage or in the app's own storage.
+3) Settings, download records and favourites.
+4) Logs and crash reports in the WiLauncher folder (WiLauncher/log). They may contain your device model, system and graphics information, file paths and player names. They leave the device only if you share or upload them yourself.
+
+2. Online features and the services they use
+
+Each service receives your IP address and what the request needs (for example the requested file), and processes it under its own privacy policy.
+
+1) Updates and catalog: the app version list and the WiLauncher catalog are read from github.com / raw.githubusercontent.com (repository groznyjalihan9-stack/WiLauncher-releases).
+2) Game downloads: Mojang and Microsoft servers, the BMCLAPI mirror and the servers of Forge, NeoForge, Fabric, Quilt, OptiFine and their libraries, depending on the download source you choose.
+3) Mods: searching, the catalog and the built-in optimisation mods use api.modrinth.com and cdn.modrinth.com. To show which catalog items are already installed, WiLauncher sends Modrinth the SHA-1 checksums of the mod and resource-pack files of the selected game (not the files themselves).
+4) Sign-in: for Ely.by or another authentication server you add, WiLauncher talks to that server and downloads the authlib-injector component (authlib-injector.yushi.moe or its BMCLAPI mirror). Microsoft sign-in is not available in WiLauncher builds.
+5) Skins: the authentication server you use; offline skins stay on the device.
+6) Control layout repository: GitHub or repo.miawa.cn, only when you browse it.
+7) Log upload: only when you choose it, the selected log is sent to mclo.gs (logshare.cn for the Chinese interface) and anyone with the link can read it. Game access tokens are hidden first.
+8) Multiplayer (Terracotta): only when you enable it and create or join a room; your device exchanges connection data with Terracotta / EasyTier nodes and the other players in the room, who see your player name.
+9) Game networking: the game and its mods connect to the servers you join on their own. For name resolution WiLauncher gives the game public DNS servers (Cloudflare 1.1.1.1; AliDNS / DNSPod for Simplified Chinese).
+10) Region detection uses only the device time zone and region setting, on the device.
+
+3. Permissions
+
+Storage (game files), network, notifications, foreground services (downloads and the running game), VPN (only for multiplayer), microphone (only if you allow it, for voice-chat mods), installing packages (WiLauncher updates), vibration and keeping the screen awake. You can revoke them in system settings.
+
+4. Your choices
+
+You can delete accounts, files and settings in WiLauncher, uninstall it (which removes its private storage; delete the WiLauncher folder yourself), and withdraw consent in Settings > About > Privacy Policy.
+
+5. Children
+
+If you are a minor, read this policy with a parent or guardian and use WiLauncher with their consent.
+
+6. Changes and contact
+
+After a change WiLauncher shows the new version and asks for consent again. Questions: https://github.com/groznyjalihan9-stack/WiLauncher-Mobile/issues

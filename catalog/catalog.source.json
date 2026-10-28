@@ -1,0 +1,380 @@
+{
+  "categories": [
+    {
+      "id": "performance",
+      "title": {
+        "ru": "Оптимизация",
+        "en": "Performance"
+      }
+    },
+    {
+      "id": "interface",
+      "title": {
+        "ru": "Интерфейс",
+        "en": "Interface"
+      }
+    },
+    {
+      "id": "maps",
+      "title": {
+        "ru": "Карты",
+        "en": "Maps"
+      }
+    },
+    {
+      "id": "graphics",
+      "title": {
+        "ru": "Графика",
+        "en": "Graphics"
+      }
+    },
+    {
+      "id": "gameplay",
+      "title": {
+        "ru": "Геймплей",
+        "en": "Gameplay"
+      }
+    },
+    {
+      "id": "resourcepacks",
+      "title": {
+        "ru": "Ресурспаки",
+        "en": "Resource packs"
+      }
+    }
+  ],
+  "items": [
+    {
+      "slug": "dynamic-fps",
+      "category": "performance",
+      "summary": {
+        "ru": "Снижает FPS в меню и когда игра свёрнута — телефон меньше греется и дольше держит заряд.",
+        "en": "Lowers FPS in menus and in the background, so the phone runs cooler and the battery lasts longer."
+      }
+    },
+    {
+      "slug": "krypton",
+      "category": "performance",
+      "summary": {
+        "ru": "Оптимизирует сетевой код: меньше лагов на серверах и в локальной сети.",
+        "en": "Optimises the network stack: less lag on servers and LAN games."
+      }
+    },
+    {
+      "slug": "clumps",
+      "category": "performance",
+      "summary": {
+        "ru": "Объединяет шарики опыта в один — меньше подтормаживаний у ферм и при добыче.",
+        "en": "Merges experience orbs, so farms and mining cause fewer stutters."
+      }
+    },
+    {
+      "slug": "badoptimizations",
+      "category": "performance",
+      "summary": {
+        "ru": "Мелкие оптимизации рендера освещения, неба и частиц.",
+        "en": "Small rendering optimisations for lighting, sky and particles."
+      }
+    },
+    {
+      "slug": "moreculling",
+      "category": "performance",
+      "summary": {
+        "ru": "Не рисует то, что скрыто за блоками: листву, рамки, стекло.",
+        "en": "Skips drawing what's hidden behind blocks: leaves, item frames, glass."
+      }
+    },
+    {
+      "slug": "cull-leaves",
+      "category": "performance",
+      "summary": {
+        "ru": "Ускоряет леса: невидимые грани листвы не рисуются.",
+        "en": "Faster forests: hidden faces of leaves are not drawn."
+      }
+    },
+    {
+      "slug": "bobby",
+      "category": "performance",
+      "summary": {
+        "ru": "Запоминает загруженные чанки и показывает их дальше, чем позволяет сервер.",
+        "en": "Keeps loaded chunks and shows them beyond the server's view distance."
+      }
+    },
+    {
+      "slug": "touchcontroller",
+      "category": "interface",
+      "summary": {
+        "ru": "Сенсорное управление как в Bedrock Edition прямо в игре. С ним кнопки WiLauncher можно скрыть в игровом меню.",
+        "en": "Bedrock-style touch controls inside the game. With it you can hide the WiLauncher buttons from the in-game menu."
+      }
+    },
+    {
+      "slug": "modmenu",
+      "category": "interface",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "summary": {
+        "ru": "Кнопка «Моды» в главном меню: список модов и их настройки.",
+        "en": "Adds a Mods button to the main menu with every mod and its settings."
+      }
+    },
+    {
+      "slug": "jade",
+      "category": "interface",
+      "summary": {
+        "ru": "Показывает, на какой блок или существо вы смотрите.",
+        "en": "Shows what block or creature you're looking at."
+      }
+    },
+    {
+      "slug": "appleskin",
+      "category": "interface",
+      "summary": {
+        "ru": "Показывает сытость и насыщение еды прямо на полосе голода.",
+        "en": "Shows food values and saturation right on the hunger bar."
+      }
+    },
+    {
+      "slug": "emi",
+      "category": "interface",
+      "summary": {
+        "ru": "Список всех предметов и рецептов с поиском — удобно, когда не помнишь крафт.",
+        "en": "Searchable list of all items and recipes, for when you forget a recipe."
+      }
+    },
+    {
+      "slug": "shulkerboxtooltip",
+      "category": "interface",
+      "summary": {
+        "ru": "Показывает содержимое шалкеров в подсказке.",
+        "en": "Shows what's inside shulker boxes in the tooltip."
+      }
+    },
+    {
+      "slug": "durability-tooltip",
+      "category": "interface",
+      "summary": {
+        "ru": "Прочность инструментов и брони числом в подсказке.",
+        "en": "Tool and armour durability as a number in the tooltip."
+      }
+    },
+    {
+      "slug": "held-item-info",
+      "category": "interface",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "summary": {
+        "ru": "Показывает чары и содержимое предмета в руке.",
+        "en": "Shows enchantments and contents of the item in your hand."
+      }
+    },
+    {
+      "slug": "better-ping-display-fabric",
+      "category": "interface",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "summary": {
+        "ru": "Пинг игроков числом в списке игроков на сервере.",
+        "en": "Shows player ping as a number in the server player list."
+      }
+    },
+    {
+      "slug": "xaeros-minimap",
+      "category": "maps",
+      "summary": {
+        "ru": "Миникарта в углу экрана с точками маршрута.",
+        "en": "Minimap in the corner of the screen with waypoints."
+      }
+    },
+    {
+      "slug": "xaeros-world-map",
+      "category": "maps",
+      "summary": {
+        "ru": "Полная карта исследованного мира.",
+        "en": "Full map of the world you have explored."
+      }
+    },
+    {
+      "slug": "continuity",
+      "category": "graphics",
+      "summary": {
+        "ru": "Соединённые текстуры стекла и других блоков.",
+        "en": "Connected textures for glass and other blocks."
+      }
+    },
+    {
+      "slug": "lambdynamiclights",
+      "category": "graphics",
+      "summary": {
+        "ru": "Факел в руке освещает всё вокруг.",
+        "en": "A torch in your hand lights up the area around you."
+      }
+    },
+    {
+      "slug": "3dskinlayers",
+      "category": "graphics",
+      "summary": {
+        "ru": "Объёмный второй слой скина.",
+        "en": "3D outer layer of player skins."
+      }
+    },
+    {
+      "slug": "fallingleaves",
+      "category": "graphics",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "summary": {
+        "ru": "С деревьев падают листья.",
+        "en": "Leaves fall from trees."
+      }
+    },
+    {
+      "slug": "nicer-skies",
+      "category": "graphics",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "summary": {
+        "ru": "Красивое небо и звёзды.",
+        "en": "Nicer sky and stars."
+      }
+    },
+    {
+      "slug": "visuality",
+      "category": "graphics",
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "heavy": true,
+      "summary": {
+        "ru": "Новые частицы: искры, капли, блеск руды.",
+        "en": "New particles: sparks, drips, shiny ores."
+      }
+    },
+    {
+      "slug": "entitytexturefeatures",
+      "category": "graphics",
+      "summary": {
+        "ru": "Случайные и светящиеся текстуры мобов из ресурспаков.",
+        "en": "Random and emissive mob textures from resource packs."
+      }
+    },
+    {
+      "slug": "iris",
+      "category": "graphics",
+      "loaders": [
+        "fabric",
+        "quilt",
+        "neoforge"
+      ],
+      "heavy": true,
+      "summary": {
+        "ru": "Шейдеры. На телефоне очень тяжело — только для мощных устройств и рендерера MobileGlues.",
+        "en": "Shaders. Very heavy on phones: only for powerful devices with the MobileGlues renderer."
+      }
+    },
+    {
+      "slug": "waystones",
+      "category": "gameplay",
+      "summary": {
+        "ru": "Камни телепортации между любимыми местами.",
+        "en": "Waystones to teleport between your favourite places."
+      }
+    },
+    {
+      "slug": "not-enough-animations",
+      "category": "gameplay",
+      "summary": {
+        "ru": "Анимации от третьего лица: еда, карта, лестницы.",
+        "en": "Third-person animations for eating, maps and ladders."
+      }
+    },
+    {
+      "slug": "freecam",
+      "category": "gameplay",
+      "summary": {
+        "ru": "Свободная камера: осмотреться, не двигаясь с места.",
+        "en": "Free camera to look around without moving."
+      }
+    },
+    {
+      "slug": "zoomify",
+      "category": "gameplay",
+      "loaders": [
+        "fabric",
+        "quilt",
+        "neoforge"
+      ],
+      "summary": {
+        "ru": "Приближение как у подзорной трубы.",
+        "en": "Zoom in like a spyglass."
+      }
+    },
+    {
+      "slug": "simple-voice-chat",
+      "category": "gameplay",
+      "summary": {
+        "ru": "Голосовой чат в игре. Нужен на сервере и разрешение на микрофон.",
+        "en": "In-game voice chat. The server needs it too, and microphone access is required."
+      }
+    },
+    {
+      "slug": "farmers-delight",
+      "category": "gameplay",
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "summary": {
+        "ru": "Готовка, новые культуры и блюда.",
+        "en": "Cooking, new crops and meals."
+      }
+    },
+    {
+      "slug": "faithful-32x",
+      "category": "resourcepacks",
+      "summary": {
+        "ru": "Знакомые текстуры в двойном разрешении 32×32.",
+        "en": "The familiar textures at double resolution (32×32)."
+      }
+    },
+    {
+      "slug": "bare-bones",
+      "category": "resourcepacks",
+      "summary": {
+        "ru": "Простые чистые текстуры в стиле трейлеров Minecraft.",
+        "en": "Simple, clean textures in the style of the Minecraft trailers."
+      }
+    },
+    {
+      "slug": "default-dark-mode",
+      "category": "resourcepacks",
+      "summary": {
+        "ru": "Тёмная тема интерфейса игры.",
+        "en": "Dark theme for the game interface."
+      }
+    },
+    {
+      "slug": "fresh-animations",
+      "category": "resourcepacks",
+      "requires": [
+        "entitytexturefeatures",
+        "entity-model-features"
+      ],
+      "summary": {
+        "ru": "Живые анимации мобов. Сам поставит нужные моды ETF и EMF.",
+        "en": "Lively mob animations. Installs the required ETF and EMF mods for you."
+      }
+    }
+  ]
+}
